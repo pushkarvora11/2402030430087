@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coach by CareerVillage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #e0e0e0;
+      padding: 10px 20px;
+    }
+
+    header nav {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    header .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .nav-buttons button {
+      background-color: #b7332d;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px 20px;
+    }
+
+    .text-content {
+      max-width: 600px;
+    }
+
+    .text-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .text-content p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .text-content .cta-buttons {
+      display: flex;
+      gap: 20px;
+    }
+
+    .cta-buttons .institution {
+      background-color: #b7332d;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .cta-buttons .individual {
+      text-decoration: underline;
+      color: black;
+    }
+
+    .image-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+      }
+      .text-content, .image-content {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">COACH</div>
+    <nav>
+      <span>For Institutions</span>
+      <span>For Individuals</span>
+      <span>About</span>
+    </nav>
+    <div class="nav-buttons">
+      <button>Signup / Login</button>
+      <button>coach for institutions</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="text-content">
+      <p>Meet Coach, your new AI career coach</p>
+      <h1>Career development<br>powered by experts and AI</h1>
+      <p><strong>Personalized career coaching for everyone</strong>, from students to job-seekers. Built by CareerVillage and a coalition of experts with decades of experience helping millions of people prepare for and get jobs.</p>
+      <div class="cta-buttons">
+        <a class="institution" href="#">coach for institutions</a>
+        <a class="individual" href="#">Try Coach for free</a>
+      </div>
+    </div>
+    <div class="image-content">
+      <img src="IMG-20250418-WA0006.jpg" alt="AI Coach Image">
+    </div>
+  </main>
+
+</body>
+</html>
